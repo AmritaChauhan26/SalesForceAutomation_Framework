@@ -1,0 +1,8 @@
+
+<suite name="Automation">
+  <test name="Login">
+    <classes>
+      <class name="/Users/amritachauhan2685/eclipseworkspace/SalesforceAutomation_Framework/SalesForceTestNG.xml"/>
+    </classes>
+  </test>
+</suite>

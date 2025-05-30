@@ -1,0 +1,14 @@
+SalesForce/Pages/CreateAccountPage.class
+SalesForce/Test/UserMenuTest.class
+SalesForce/Test/RandomScenarioTest.class
+SalesForce/Pages/UserMenuPage.class
+SalesForce/Test/ContactsTest.class
+SalesForce/Pages/LoginPage.class
+SalesForce/Test/CreateAccountTest.class
+SalesForce/Test/LoginTest.class
+SalesForce/Test/LeadsTest.class
+SalesForce/Pages/ContactsPage.class
+SalesForce/Test/CreateOpyTest.class
+SalesForce/Pages/CreateOpyPage.class
+SalesForce/Pages/LeadsPage.class
+SalesForce/Pages/RandomScenarioPage.class

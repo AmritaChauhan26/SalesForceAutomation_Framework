@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation]" verbose="0">
+  <test name="Login(failed)">
+    <classes>
+      <class name="SalesForce.Test.CreateOpyTest">
+        <methods>
+          <include name="newOpportunityCreation"/>
+          <include name="teardown"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- SalesForce.Test.CreateOpyTest -->
+      <class name="SalesForce.Test.LeadsTest">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="teardown"/>
+          <include name="leadsNewButton"/>
+        </methods>
+      </class> <!-- SalesForce.Test.LeadsTest -->
+      <class name="SalesForce.Test.LoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- SalesForce.Test.LoginTest -->
+      <class name="SalesForce.Test.CreateAccountTest">
+        <methods>
+          <include name="newAccountCreate"/>
+          <include name="beforemethod"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- SalesForce.Test.CreateAccountTest -->
+      <class name="SalesForce.Test.ContactsTest">
+        <methods>
+          <include name="createNewContantsValidation"/>
+          <include name="teardown"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- SalesForce.Test.ContactsTest -->
+      <class name="SalesForce.Test.UserMenuTest">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- SalesForce.Test.UserMenuTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Automation] -->

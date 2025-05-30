@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Automation" class="navigator-link">
+              <span class="suite-name border-passed">Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Automation" class="navigator-link ">
+                    <span>SalesForceTestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Automation" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Automation" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Automation" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Automation" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Automation" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Automation" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automation" class="hide-methods passed suite-Automation"> (hide)</a> <!-- hide-methods passed suite-Automation -->
+                      <a href="#" panel-name="suite-Automation" class="show-methods passed suite-Automation"> (show)</a> <!-- show-methods passed suite-Automation -->
+                    </span>
+                    <div class="method-list-content passed suite-Automation">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.ContactsTest" class="method navigator-link" hash-for-method="ViewErrorMessage">ViewErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.ContactsTest" class="method navigator-link" hash-for-method="cancelButtonViewPage">cancelButtonViewPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.LeadsTest" class="method navigator-link" hash-for-method="clickOnLeadsHomePage">clickOnLeadsHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.ContactsTest" class="method navigator-link" hash-for-method="createNewContantsValidation">createNewContantsValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.ContactsTest" class="method navigator-link" hash-for-method="createNewViewContact">createNewViewContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.LoginTest" class="method navigator-link" hash-for-method="forgotPassword">forgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.LeadsTest" class="method navigator-link" hash-for-method="leadsDropDownOptions">leadsDropDownOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.LeadsTest" class="method navigator-link" hash-for-method="leadsGoButton">leadsGoButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.LeadsTest" class="method navigator-link" hash-for-method="leadsNewButton">leadsNewButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.LeadsTest" class="method navigator-link" hash-for-method="leadsSelectedOptionVisible">leadsSelectedOptionVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.LoginTest" class="method navigator-link" hash-for-method="loginWithErrorMessage">loginWithErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.LoginTest" class="method navigator-link" hash-for-method="loginWithInvalidDetails">loginWithInvalidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.LoginTest" class="method navigator-link" hash-for-method="loginWithValidDetails">loginWithValidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.UserMenuTest" class="method navigator-link" hash-for-method="logoutSalesForce">logoutSalesForce</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.UserMenuTest" class="method navigator-link" hash-for-method="myConsoleDeveloperWindow">myConsoleDeveloperWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.ContactsTest" class="method navigator-link" hash-for-method="myContactlink">myContactlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.UserMenuTest" class="method navigator-link" hash-for-method="mySettingOption">mySettingOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.CreateAccountTest" class="method navigator-link" hash-for-method="newAccountCreate">newAccountCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.CreateAccountTest" class="method navigator-link" hash-for-method="newAccountView">newAccountView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.CreateOpyTest" class="method navigator-link" hash-for-method="newOpportunityCreation">newOpportunityCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.CreateOpyTest" class="method navigator-link" hash-for-method="opportunityDropDownList">opportunityDropDownList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.CreateOpyTest" class="method navigator-link" hash-for-method="pipelineReportValidation">pipelineReportValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.CreateOpyTest" class="method navigator-link" hash-for-method="quartlySummaryReportValidation">quartlySummaryReportValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.ContactsTest" class="method navigator-link" hash-for-method="recentContactDisplay">recentContactDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.LoginTest" class="method navigator-link" hash-for-method="rememberMeLogin">rememberMeLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.ContactsTest" class="method navigator-link" hash-for-method="saveAndNewClick">saveAndNewClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.CreateOpyTest" class="method navigator-link" hash-for-method="stuckReportValidation">stuckReportValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.UserMenuTest" class="method navigator-link" hash-for-method="userDropDownList">userDropDownList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation" title="SalesForce.Test.ContactsTest" class="method navigator-link" hash-for-method="viewContactPage">viewContactPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automation" class="panel Automation">
+          <div class="suite-Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SalesForce.Test.LeadsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnLeadsHomePage">
+                  </a> <!-- clickOnLeadsHomePage -->
+                  <span class="method-name">clickOnLeadsHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="leadsDropDownOptions">
+                  </a> <!-- leadsDropDownOptions -->
+                  <span class="method-name">leadsDropDownOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="leadsGoButton">
+                  </a> <!-- leadsGoButton -->
+                  <span class="method-name">leadsGoButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="leadsNewButton">
+                  </a> <!-- leadsNewButton -->
+                  <span class="method-name">leadsNewButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="leadsSelectedOptionVisible">
+                  </a> <!-- leadsSelectedOptionVisible -->
+                  <span class="method-name">leadsSelectedOptionVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation-class-passed -->
+          <div class="suite-Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SalesForce.Test.CreateOpyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="newOpportunityCreation">
+                  </a> <!-- newOpportunityCreation -->
+                  <span class="method-name">newOpportunityCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="opportunityDropDownList">
+                  </a> <!-- opportunityDropDownList -->
+                  <span class="method-name">opportunityDropDownList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pipelineReportValidation">
+                  </a> <!-- pipelineReportValidation -->
+                  <span class="method-name">pipelineReportValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quartlySummaryReportValidation">
+                  </a> <!-- quartlySummaryReportValidation -->
+                  <span class="method-name">quartlySummaryReportValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stuckReportValidation">
+                  </a> <!-- stuckReportValidation -->
+                  <span class="method-name">stuckReportValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation-class-passed -->
+          <div class="suite-Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SalesForce.Test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPassword">
+                  </a> <!-- forgotPassword -->
+                  <span class="method-name">forgotPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithErrorMessage">
+                  </a> <!-- loginWithErrorMessage -->
+                  <span class="method-name">loginWithErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidDetails">
+                  </a> <!-- loginWithInvalidDetails -->
+                  <span class="method-name">loginWithInvalidDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidDetails">
+                  </a> <!-- loginWithValidDetails -->
+                  <span class="method-name">loginWithValidDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rememberMeLogin">
+                  </a> <!-- rememberMeLogin -->
+                  <span class="method-name">rememberMeLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation-class-passed -->
+          <div class="suite-Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SalesForce.Test.UserMenuTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutSalesForce">
+                  </a> <!-- logoutSalesForce -->
+                  <span class="method-name">logoutSalesForce</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="myConsoleDeveloperWindow">
+                  </a> <!-- myConsoleDeveloperWindow -->
+                  <span class="method-name">myConsoleDeveloperWindow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mySettingOption">
+                  </a> <!-- mySettingOption -->
+                  <span class="method-name">mySettingOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userDropDownList">
+                  </a> <!-- userDropDownList -->
+                  <span class="method-name">userDropDownList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation-class-passed -->
+          <div class="suite-Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SalesForce.Test.CreateAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="newAccountCreate">
+                  </a> <!-- newAccountCreate -->
+                  <span class="method-name">newAccountCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newAccountView">
+                  </a> <!-- newAccountView -->
+                  <span class="method-name">newAccountView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation-class-passed -->
+          <div class="suite-Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SalesForce.Test.ContactsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewErrorMessage">
+                  </a> <!-- ViewErrorMessage -->
+                  <span class="method-name">ViewErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelButtonViewPage">
+                  </a> <!-- cancelButtonViewPage -->
+                  <span class="method-name">cancelButtonViewPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewContantsValidation">
+                  </a> <!-- createNewContantsValidation -->
+                  <span class="method-name">createNewContantsValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewViewContact">
+                  </a> <!-- createNewViewContact -->
+                  <span class="method-name">createNewViewContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="myContactlink">
+                  </a> <!-- myContactlink -->
+                  <span class="method-name">myContactlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="recentContactDisplay">
+                  </a> <!-- recentContactDisplay -->
+                  <span class="method-name">recentContactDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="saveAndNewClick">
+                  </a> <!-- saveAndNewClick -->
+                  <span class="method-name">saveAndNewClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewContactPage">
+                  </a> <!-- viewContactPage -->
+                  <span class="method-name">viewContactPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation-class-passed -->
+        </div> <!-- panel Automation -->
+        <div panel-name="test-xml-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/amritachauhan2685/eclipseworkspace/SalesforceAutomation_Framework/SalesForceTestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Automation&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;SalesForce.Listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SalesForce.Test.LoginTest&quot;/&gt;
+      &lt;class name=&quot;SalesForce.Test.UserMenuTest&quot;/&gt;
+      &lt;class name=&quot;SalesForce.Test.LeadsTest&quot;/&gt;
+      &lt;class name=&quot;SalesForce.Test.CreateOpyTest&quot;/&gt;
+      &lt;class name=&quot;SalesForce.Test.CreateAccountTest&quot;/&gt;
+      &lt;class name=&quot;SalesForce.Test.ContactsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login --&gt;
+&lt;/suite&gt; &lt;!-- Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automation');
+function tableData_Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'mySettingOption')
+data.setCell(0, 2, 'SalesForce.Test.UserMenuTest')
+data.setCell(0, 3, 8997);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'leadsGoButton')
+data.setCell(1, 2, 'SalesForce.Test.LeadsTest')
+data.setCell(1, 3, 8347);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'newOpportunityCreation')
+data.setCell(2, 2, 'SalesForce.Test.CreateOpyTest')
+data.setCell(2, 3, 5925);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'leadsNewButton')
+data.setCell(3, 2, 'SalesForce.Test.LeadsTest')
+data.setCell(3, 3, 5468);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'newAccountCreate')
+data.setCell(4, 2, 'SalesForce.Test.CreateAccountTest')
+data.setCell(4, 3, 5438);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createNewContantsValidation')
+data.setCell(5, 2, 'SalesForce.Test.ContactsTest')
+data.setCell(5, 3, 5398);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'newAccountView')
+data.setCell(6, 2, 'SalesForce.Test.CreateAccountTest')
+data.setCell(6, 3, 4843);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createNewViewContact')
+data.setCell(7, 2, 'SalesForce.Test.ContactsTest')
+data.setCell(7, 3, 4777);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'pipelineReportValidation')
+data.setCell(8, 2, 'SalesForce.Test.CreateOpyTest')
+data.setCell(8, 3, 4739);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'saveAndNewClick')
+data.setCell(9, 2, 'SalesForce.Test.ContactsTest')
+data.setCell(9, 3, 4511);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ViewErrorMessage')
+data.setCell(10, 2, 'SalesForce.Test.ContactsTest')
+data.setCell(10, 3, 4405);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'cancelButtonViewPage')
+data.setCell(11, 2, 'SalesForce.Test.ContactsTest')
+data.setCell(11, 3, 4248);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'myContactlink')
+data.setCell(12, 2, 'SalesForce.Test.ContactsTest')
+data.setCell(12, 3, 4207);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'viewContactPage')
+data.setCell(13, 2, 'SalesForce.Test.ContactsTest')
+data.setCell(13, 3, 3987);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'leadsSelectedOptionVisible')
+data.setCell(14, 2, 'SalesForce.Test.LeadsTest')
+data.setCell(14, 3, 3979);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'myConsoleDeveloperWindow')
+data.setCell(15, 2, 'SalesForce.Test.UserMenuTest')
+data.setCell(15, 3, 3928);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'quartlySummaryReportValidation')
+data.setCell(16, 2, 'SalesForce.Test.CreateOpyTest')
+data.setCell(16, 3, 3874);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'logoutSalesForce')
+data.setCell(17, 2, 'SalesForce.Test.UserMenuTest')
+data.setCell(17, 3, 3868);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'stuckReportValidation')
+data.setCell(18, 2, 'SalesForce.Test.CreateOpyTest')
+data.setCell(18, 3, 3796);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'leadsDropDownOptions')
+data.setCell(19, 2, 'SalesForce.Test.LeadsTest')
+data.setCell(19, 3, 3724);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'clickOnLeadsHomePage')
+data.setCell(20, 2, 'SalesForce.Test.LeadsTest')
+data.setCell(20, 3, 3378);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'recentContactDisplay')
+data.setCell(21, 2, 'SalesForce.Test.ContactsTest')
+data.setCell(21, 3, 3360);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'rememberMeLogin')
+data.setCell(22, 2, 'SalesForce.Test.LoginTest')
+data.setCell(22, 3, 3360);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'opportunityDropDownList')
+data.setCell(23, 2, 'SalesForce.Test.CreateOpyTest')
+data.setCell(23, 3, 3343);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'loginWithValidDetails')
+data.setCell(24, 2, 'SalesForce.Test.LoginTest')
+data.setCell(24, 3, 3139);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'userDropDownList')
+data.setCell(25, 2, 'SalesForce.Test.UserMenuTest')
+data.setCell(25, 3, 2678);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'loginWithInvalidDetails')
+data.setCell(26, 2, 'SalesForce.Test.LoginTest')
+data.setCell(26, 3, 1041);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'loginWithErrorMessage')
+data.setCell(27, 2, 'SalesForce.Test.LoginTest')
+data.setCell(27, 3, 962);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'forgotPassword')
+data.setCell(28, 2, 'SalesForce.Test.LoginTest')
+data.setCell(28, 3, 834);
+window.suiteTableData['Automation']= { tableData: data, tableDiv: 'times-div-Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Automation">
+              </div> <!-- times-div-Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">SalesForce.Test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithErrorMessage</span>
+                <span class="method-start">4006 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">4983 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">5543 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidDetails</span>
+                <span class="method-start">7708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">10849 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">11379 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rememberMeLogin</span>
+                <span class="method-start">13519 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">16881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">17485 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgotPassword</span>
+                <span class="method-start">19486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">20321 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">20700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithInvalidDetails</span>
+                <span class="method-start">22784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">23827 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SalesForce.Test.UserMenuTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">24386 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userDropDownList</span>
+                <span class="method-start">26356 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">29036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">29529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mySettingOption</span>
+                <span class="method-start">31592 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">40591 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">41076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">myConsoleDeveloperWindow</span>
+                <span class="method-start">43038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">46968 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">47402 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutSalesForce</span>
+                <span class="method-start">50385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">54254 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SalesForce.Test.LeadsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">54613 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnLeadsHomePage</span>
+                <span class="method-start">56580 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">59960 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">60400 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">leadsDropDownOptions</span>
+                <span class="method-start">62410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">66135 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">66602 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">leadsGoButton</span>
+                <span class="method-start">68686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">77035 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">77589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">leadsNewButton</span>
+                <span class="method-start">79606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">85075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">85468 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">leadsSelectedOptionVisible</span>
+                <span class="method-start">87327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">91307 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SalesForce.Test.CreateOpyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">91745 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newOpportunityCreation</span>
+                <span class="method-start">93702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">99628 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">100037 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">opportunityDropDownList</span>
+                <span class="method-start">101970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">105314 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">105862 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pipelineReportValidation</span>
+                <span class="method-start">107805 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">112545 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">112992 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">quartlySummaryReportValidation</span>
+                <span class="method-start">114903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">118779 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">119205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">stuckReportValidation</span>
+                <span class="method-start">121143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">124940 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SalesForce.Test.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">125438 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newAccountCreate</span>
+                <span class="method-start">127423 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">132862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">133311 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newAccountView</span>
+                <span class="method-start">135290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">140134 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SalesForce.Test.ContactsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">140559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ViewErrorMessage</span>
+                <span class="method-start">142502 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">146909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">147360 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cancelButtonViewPage</span>
+                <span class="method-start">149241 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">153490 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">153899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewContantsValidation</span>
+                <span class="method-start">155820 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">161219 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">161644 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewViewContact</span>
+                <span class="method-start">163550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">168328 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">168782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">myContactlink</span>
+                <span class="method-start">170675 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">174883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">175375 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">recentContactDisplay</span>
+                <span class="method-start">177461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">180823 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">181262 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">saveAndNewClick</span>
+                <span class="method-start">183236 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">187749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">188213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">viewContactPage</span>
+                <span class="method-start">190202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">194190 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,16 @@
+<suite name="Automation">
+
+<!--listeners>
+<listener class-name = "SalesForce.Listeners.TestListener"></listener> 
+</listeners-->
+  <test name="Login">
+    <classes>
+      <class name="SalesForce.Test.LoginTest"/>
+     <class name="SalesForce.Test.UserMenuTest"/>	
+     <class name="SalesForce.Test.LeadsTest"/>
+     <class name="SalesForce.Test.CreateOpyTest"/>
+     <class name="SalesForce.Test.CreateAccountTest"/>
+     <class name="SalesForce.Test.ContactsTest"/>
+    </classes>
+  </test>
+</suite>
