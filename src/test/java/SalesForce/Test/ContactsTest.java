@@ -37,7 +37,7 @@ public class ContactsTest extends BaseTest{
 	
 	@Test
 	public void createNewContantsValidation() {
-		loginpage.loginWithValidCredentials("chaamrita953@agentforce.com","Amrita@1985");
+		loginpage.loginWithValidCredentials("chaamrita491@agentforce.com","Amrita@1985");
 		contacts.contactTab();
 		String actual =contacts.createNewContact();
 		String expected ="Contact";

@@ -96,7 +96,7 @@ public class LeadsTest extends BaseTest {
 	}
 	@Test
 	public void leadsNewButton() {
-		loginpage.loginWithValidCredentials("chaamrita953@agentforce.com","Amrita@1985");
+		loginpage.loginWithValidCredentials("chaamrita491@agentforce.com","Amrita@1985");
 		leadspage.leadsHomePage();
 		leadspage.newButtonClick();
 		String actual =leadspage.Heading();

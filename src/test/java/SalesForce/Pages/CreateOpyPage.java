@@ -46,7 +46,7 @@ public class CreateOpyPage extends Basepage {
 		@FindBy (xpath="//td[@id='topButtonRow']//input[@title='Save']")
 		WebElement savebtn;
 		
-		@FindBy (xpath="//h1[@class='pageType']")
+		@FindBy (xpath="//h2[normalize-space()='Opportunity Detail']")
 		WebElement NewOpty;
 		
 		@FindBy (xpath="//a[contains(text(),'Pipeline')]")
@@ -103,7 +103,8 @@ public class CreateOpyPage extends Basepage {
 		}
 		
 		public String Heading() {
-			String text=NewOpty.getText();
+			String text=NewOpty.getText().trim();
+			System.out.println(text);
 			return text;
 		}
 		

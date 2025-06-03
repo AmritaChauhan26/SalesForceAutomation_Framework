@@ -31,6 +31,11 @@ public class Basepage {
 	    wait.until(ExpectedConditions.elementToBeClickable(locator));
 	}
 	
+	public void waitClick(By locator, int time) {
+	    WebDriverWait wait = new WebDriverWait(driver, time);
+	    wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+	}
+	
 	public void selectbyVisibleText(WebElement value,String text) {
 		Select select = new Select(value);
 		select.selectByVisibleText(text);

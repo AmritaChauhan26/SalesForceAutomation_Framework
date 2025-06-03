@@ -1,8 +1,10 @@
-
 <suite name="Automation">
+<!--listeners>
+<listener class-name = "SalesForce.Listeners.TestListener"></listener> 
+</listeners-->
   <test name="Login">
     <classes>
-      <class name="/Users/amritachauhan2685/eclipseworkspace/SalesforceAutomation_Framework/SalesForceTestNG.xml"/>
+      <class name="SalesForce.Test.RandomScenarioTest"/>
     </classes>
   </test>
 </suite>

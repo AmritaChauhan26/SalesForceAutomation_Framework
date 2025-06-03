@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SalesForce.Test.ContactsTest">
+      <class name="SalesForce.Test.RandomScenarioTest">
         <methods>
-          <include name="createNewViewContact"/>
-          <include name="teardown"/>
+          <include name="allAvailableTabsVerification"/>
           <include name="beforemethod"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- SalesForce.Test.ContactsTest -->
+      </class> <!-- SalesForce.Test.RandomScenarioTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

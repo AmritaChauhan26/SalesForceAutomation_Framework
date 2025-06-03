@@ -60,6 +60,14 @@ public class UserMenuTest extends BaseTest{
 		 Assert.assertTrue(result, "Logout is not working");
 	}
 	
+	@Test 
+	public void myProfileOption() {
+		loginpage.loginWithValidCredentials("chaamrita491@agentforce.com","Amrita@1985");
+		 usermenupage.userDropdown();
+		 boolean actual =usermenupage.myProfilePhotoupload();
+		 Assert.assertTrue(actual, "photo upload is not working");
+	}
+	
 	@AfterMethod
 	
 	public void teardown() {

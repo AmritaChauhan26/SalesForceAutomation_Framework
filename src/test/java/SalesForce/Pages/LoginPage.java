@@ -71,9 +71,7 @@ public class LoginPage extends Basepage{
 		UserName.sendKeys(username);
 		Password.sendKeys(password);
 		mywait(Login,10);
-		Login.click();
-		
-		
+		Login.click();		
 	}
 	
 public String getHomePageText() {
@@ -106,7 +104,7 @@ public void userDropdown() {
 	
 	public void forgotPasswordLink(String username) {
 		Forgotpassword.click();
-		fusername.sendKeys("chaamrita953@agentforce.com");
+		fusername.sendKeys(username);
 		continuebtn.click();
 	}
 	
@@ -122,6 +120,8 @@ public void userDropdown() {
 		Login.click();
 		
 	}
+
+	
 	
 	
 	

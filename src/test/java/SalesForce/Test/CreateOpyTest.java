@@ -55,11 +55,11 @@ public class CreateOpyTest extends BaseTest {
 		@Test
 		
 		public void newOpportunityCreation() {
-			loginpage.loginWithValidCredentials("chaamrita953@agentforce.com","Amrita@1985");
+			loginpage.loginWithValidCredentials("chaamrita491@agentforce.com","Amrita@1985");
 			createopy.clickonOptyTab();
 			createopy.newOpptyVerification();
 			String actual=createopy.Heading();
-			String expected = "Opportunity";
+			String expected = "Opportunity Detail";
 			Assert.assertEquals(actual, expected,"New Opportunity page is not created");
 		}
 		

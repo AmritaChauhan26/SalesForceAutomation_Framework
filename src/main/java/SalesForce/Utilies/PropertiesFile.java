@@ -10,10 +10,10 @@ public class PropertiesFile {
 	FileInputStream srcfile=null;
 	
 	public String GetProperty(String key) {
-		String filepath="/Users/amritachauhan2685/eclipseworkspace/SalesforceAutomation_Framework/Application.properties";
-		
+		String projectpath = System.getProperty("user.dir");
+		String FilePath = projectpath+"/Application.properties";
 		try {
-			srcfile = new FileInputStream(filepath);
+			srcfile = new FileInputStream(FilePath);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -1,371 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="29" passed="29" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-27T23:00:13 EDT" name="Automation" finished-at="2025-05-27T23:03:28 EDT" duration-ms="194668">
+  <suite started-at="2025-06-03T17:47:57 EDT" name="Automation" finished-at="2025-06-03T17:48:24 EDT" duration-ms="26985">
     <groups>
     </groups>
-    <test started-at="2025-05-27T23:00:13 EDT" name="Login" finished-at="2025-05-27T23:03:28 EDT" duration-ms="194668">
-      <class name="SalesForce.Test.ContactsTest">
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:02:34 EDT" name="beforemethod" finished-at="2025-05-27T23:02:36 EDT" duration-ms="1943" status="PASS">
+    <test started-at="2025-06-03T17:47:57 EDT" name="Login" finished-at="2025-06-03T17:48:24 EDT" duration-ms="26985">
+      <class name="SalesForce.Test.RandomScenarioTest">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:47:57 EDT" name="beforemethod" finished-at="2025-06-03T17:48:00 EDT" duration-ms="2854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="ViewErrorMessage()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:02:36 EDT" name="ViewErrorMessage" finished-at="2025-05-27T23:02:40 EDT" duration-ms="4405" status="PASS">
+        <test-method signature="userNameLinkVerification()[pri:1, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:00 EDT" name="userNameLinkVerification" finished-at="2025-06-03T17:48:04 EDT" duration-ms="4388" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ViewErrorMessage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:02:40 EDT" name="teardown" finished-at="2025-05-27T23:02:40 EDT" duration-ms="450" status="PASS">
+        </test-method> <!-- userNameLinkVerification -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:04 EDT" name="teardown" finished-at="2025-06-03T17:48:05 EDT" duration-ms="490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:02:40 EDT" name="beforemethod" finished-at="2025-05-27T23:02:42 EDT" duration-ms="1881" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:05 EDT" name="beforemethod" finished-at="2025-06-03T17:48:07 EDT" duration-ms="1998" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="cancelButtonViewPage()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:02:42 EDT" name="cancelButtonViewPage" finished-at="2025-05-27T23:02:47 EDT" duration-ms="4248" status="PASS">
+        <test-method signature="lastnameEditUpdateVerification()[pri:2, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:07 EDT" name="lastnameEditUpdateVerification" finished-at="2025-06-03T17:48:15 EDT" duration-ms="8331" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cancelButtonViewPage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:02:47 EDT" name="teardown" finished-at="2025-05-27T23:02:47 EDT" duration-ms="409" status="PASS">
+        </test-method> <!-- lastnameEditUpdateVerification -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:15 EDT" name="teardown" finished-at="2025-06-03T17:48:15 EDT" duration-ms="444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:02:47 EDT" name="beforemethod" finished-at="2025-05-27T23:02:49 EDT" duration-ms="1921" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:15 EDT" name="beforemethod" finished-at="2025-06-03T17:48:17 EDT" duration-ms="2088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="createNewContantsValidation()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:02:49 EDT" name="createNewContantsValidation" finished-at="2025-05-27T23:02:54 EDT" duration-ms="5398" status="PASS">
+        <test-method signature="allAvailableTabsVerification()[pri:3, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:17 EDT" name="allAvailableTabsVerification" finished-at="2025-06-03T17:48:23 EDT" duration-ms="5387" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewContantsValidation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:02:54 EDT" name="teardown" finished-at="2025-05-27T23:02:55 EDT" duration-ms="423" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:02:55 EDT" name="beforemethod" finished-at="2025-05-27T23:02:57 EDT" duration-ms="1906" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="createNewViewContact()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:02:57 EDT" name="createNewViewContact" finished-at="2025-05-27T23:03:01 EDT" duration-ms="4777" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewViewContact -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:03:01 EDT" name="teardown" finished-at="2025-05-27T23:03:02 EDT" duration-ms="451" status="PASS">
+        </test-method> <!-- allAvailableTabsVerification -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:23 EDT" name="teardown" finished-at="2025-06-03T17:48:24 EDT" duration-ms="956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:03:02 EDT" name="beforemethod" finished-at="2025-05-27T23:03:04 EDT" duration-ms="1893" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="myContactlink()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:03:04 EDT" name="myContactlink" finished-at="2025-05-27T23:03:08 EDT" duration-ms="4207" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myContactlink -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:03:08 EDT" name="teardown" finished-at="2025-05-27T23:03:09 EDT" duration-ms="491" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:03:09 EDT" name="beforemethod" finished-at="2025-05-27T23:03:11 EDT" duration-ms="2086" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="recentContactDisplay()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:03:11 EDT" name="recentContactDisplay" finished-at="2025-05-27T23:03:14 EDT" duration-ms="3360" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recentContactDisplay -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:03:14 EDT" name="teardown" finished-at="2025-05-27T23:03:14 EDT" duration-ms="438" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:03:14 EDT" name="beforemethod" finished-at="2025-05-27T23:03:16 EDT" duration-ms="1974" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="saveAndNewClick()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:03:16 EDT" name="saveAndNewClick" finished-at="2025-05-27T23:03:21 EDT" duration-ms="4511" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- saveAndNewClick -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:03:21 EDT" name="teardown" finished-at="2025-05-27T23:03:21 EDT" duration-ms="464" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:03:21 EDT" name="beforemethod" finished-at="2025-05-27T23:03:23 EDT" duration-ms="1989" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="viewContactPage()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:03:23 EDT" name="viewContactPage" finished-at="2025-05-27T23:03:27 EDT" duration-ms="3987" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- viewContactPage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.ContactsTest@2df3b89c]" started-at="2025-05-27T23:03:27 EDT" name="teardown" finished-at="2025-05-27T23:03:28 EDT" duration-ms="445" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- SalesForce.Test.ContactsTest -->
-      <class name="SalesForce.Test.CreateOpyTest">
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.CreateOpyTest@55b0dcab]" started-at="2025-05-27T23:01:45 EDT" name="beforemethod" finished-at="2025-05-27T23:01:47 EDT" duration-ms="1957" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="newOpportunityCreation()[pri:0, instance:SalesForce.Test.CreateOpyTest@55b0dcab]" started-at="2025-05-27T23:01:47 EDT" name="newOpportunityCreation" finished-at="2025-05-27T23:01:53 EDT" duration-ms="5925" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newOpportunityCreation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.CreateOpyTest@55b0dcab]" started-at="2025-05-27T23:01:53 EDT" name="teardown" finished-at="2025-05-27T23:01:53 EDT" duration-ms="406" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.CreateOpyTest@55b0dcab]" started-at="2025-05-27T23:01:53 EDT" name="beforemethod" finished-at="2025-05-27T23:01:55 EDT" duration-ms="1933" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="opportunityDropDownList()[pri:0, instance:SalesForce.Test.CreateOpyTest@55b0dcab]" started-at="2025-05-27T23:01:55 EDT" name="opportunityDropDownList" finished-at="2025-05-27T23:01:58 EDT" duration-ms="3343" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- opportunityDropDownList -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.CreateOpyTest@55b0dcab]" started-at="2025-05-27T23:01:58 EDT" name="teardown" finished-at="2025-05-27T23:01:59 EDT" duration-ms="546" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.CreateOpyTest@55b0dcab]" started-at="2025-05-27T23:01:59 EDT" name="beforemethod" finished-at="2025-05-27T23:02:01 EDT" duration-ms="1943" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="pipelineReportValidation()[pri:0, instance:SalesForce.Test.CreateOpyTest@55b0dcab]" started-at="2025-05-27T23:02:01 EDT" name="pipelineReportValidation" finished-at="2025-05-27T23:02:06 EDT" duration-ms="4739" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pipelineReportValidation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.CreateOpyTest@55b0dcab]" started-at="2025-05-27T23:02:06 EDT" name="teardown" finished-at="2025-05-27T23:02:06 EDT" duration-ms="446" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.CreateOpyTest@55b0dcab]" started-at="2025-05-27T23:02:06 EDT" name="beforemethod" finished-at="2025-05-27T23:02:08 EDT" duration-ms="1911" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="quartlySummaryReportValidation()[pri:0, instance:SalesForce.Test.CreateOpyTest@55b0dcab]" started-at="2025-05-27T23:02:08 EDT" name="quartlySummaryReportValidation" finished-at="2025-05-27T23:02:12 EDT" duration-ms="3874" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quartlySummaryReportValidation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.CreateOpyTest@55b0dcab]" started-at="2025-05-27T23:02:12 EDT" name="teardown" finished-at="2025-05-27T23:02:12 EDT" duration-ms="425" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.CreateOpyTest@55b0dcab]" started-at="2025-05-27T23:02:12 EDT" name="beforemethod" finished-at="2025-05-27T23:02:14 EDT" duration-ms="1938" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="stuckReportValidation()[pri:0, instance:SalesForce.Test.CreateOpyTest@55b0dcab]" started-at="2025-05-27T23:02:14 EDT" name="stuckReportValidation" finished-at="2025-05-27T23:02:18 EDT" duration-ms="3796" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stuckReportValidation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.CreateOpyTest@55b0dcab]" started-at="2025-05-27T23:02:18 EDT" name="teardown" finished-at="2025-05-27T23:02:19 EDT" duration-ms="498" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- SalesForce.Test.CreateOpyTest -->
-      <class name="SalesForce.Test.CreateAccountTest">
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.CreateAccountTest@38afe297]" started-at="2025-05-27T23:02:19 EDT" name="beforemethod" finished-at="2025-05-27T23:02:21 EDT" duration-ms="1985" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="newAccountCreate()[pri:0, instance:SalesForce.Test.CreateAccountTest@38afe297]" started-at="2025-05-27T23:02:21 EDT" name="newAccountCreate" finished-at="2025-05-27T23:02:26 EDT" duration-ms="5438" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newAccountCreate -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.CreateAccountTest@38afe297]" started-at="2025-05-27T23:02:26 EDT" name="teardown" finished-at="2025-05-27T23:02:26 EDT" duration-ms="445" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.CreateAccountTest@38afe297]" started-at="2025-05-27T23:02:26 EDT" name="beforemethod" finished-at="2025-05-27T23:02:28 EDT" duration-ms="1979" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="newAccountView()[pri:0, instance:SalesForce.Test.CreateAccountTest@38afe297]" started-at="2025-05-27T23:02:28 EDT" name="newAccountView" finished-at="2025-05-27T23:02:33 EDT" duration-ms="4843" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newAccountView -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.CreateAccountTest@38afe297]" started-at="2025-05-27T23:02:33 EDT" name="teardown" finished-at="2025-05-27T23:02:34 EDT" duration-ms="423" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- SalesForce.Test.CreateAccountTest -->
-      <class name="SalesForce.Test.UserMenuTest">
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.UserMenuTest@7bedc48a]" started-at="2025-05-27T23:00:38 EDT" name="beforemethod" finished-at="2025-05-27T23:00:39 EDT" duration-ms="1970" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="userDropDownList()[pri:1, instance:SalesForce.Test.UserMenuTest@7bedc48a]" started-at="2025-05-27T23:00:39 EDT" name="userDropDownList" finished-at="2025-05-27T23:00:42 EDT" duration-ms="2678" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userDropDownList -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.UserMenuTest@7bedc48a]" started-at="2025-05-27T23:00:42 EDT" name="teardown" finished-at="2025-05-27T23:00:43 EDT" duration-ms="492" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.UserMenuTest@7bedc48a]" started-at="2025-05-27T23:00:43 EDT" name="beforemethod" finished-at="2025-05-27T23:00:45 EDT" duration-ms="2063" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="mySettingOption()[pri:2, instance:SalesForce.Test.UserMenuTest@7bedc48a]" started-at="2025-05-27T23:00:45 EDT" name="mySettingOption" finished-at="2025-05-27T23:00:54 EDT" duration-ms="8997" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mySettingOption -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.UserMenuTest@7bedc48a]" started-at="2025-05-27T23:00:54 EDT" name="teardown" finished-at="2025-05-27T23:00:54 EDT" duration-ms="484" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.UserMenuTest@7bedc48a]" started-at="2025-05-27T23:00:54 EDT" name="beforemethod" finished-at="2025-05-27T23:00:56 EDT" duration-ms="1962" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="myConsoleDeveloperWindow()[pri:3, instance:SalesForce.Test.UserMenuTest@7bedc48a]" started-at="2025-05-27T23:00:56 EDT" name="myConsoleDeveloperWindow" finished-at="2025-05-27T23:01:00 EDT" duration-ms="3928" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myConsoleDeveloperWindow -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.UserMenuTest@7bedc48a]" started-at="2025-05-27T23:01:00 EDT" name="teardown" finished-at="2025-05-27T23:01:01 EDT" duration-ms="433" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.UserMenuTest@7bedc48a]" started-at="2025-05-27T23:01:01 EDT" name="beforemethod" finished-at="2025-05-27T23:01:04 EDT" duration-ms="2983" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="logoutSalesForce()[pri:4, instance:SalesForce.Test.UserMenuTest@7bedc48a]" started-at="2025-05-27T23:01:04 EDT" name="logoutSalesForce" finished-at="2025-05-27T23:01:07 EDT" duration-ms="3868" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutSalesForce -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.UserMenuTest@7bedc48a]" started-at="2025-05-27T23:01:07 EDT" name="teardown" finished-at="2025-05-27T23:01:08 EDT" duration-ms="358" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- SalesForce.Test.UserMenuTest -->
-      <class name="SalesForce.Test.LoginTest">
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.LoginTest@6f03482]" started-at="2025-05-27T23:00:13 EDT" name="beforemethod" finished-at="2025-05-27T23:00:17 EDT" duration-ms="4005" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="loginWithErrorMessage()[pri:1, instance:SalesForce.Test.LoginTest@6f03482]" started-at="2025-05-27T23:00:17 EDT" name="loginWithErrorMessage" finished-at="2025-05-27T23:00:18 EDT" duration-ms="962" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithErrorMessage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.LoginTest@6f03482]" started-at="2025-05-27T23:00:18 EDT" name="teardown" finished-at="2025-05-27T23:00:19 EDT" duration-ms="556" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.LoginTest@6f03482]" started-at="2025-05-27T23:00:19 EDT" name="beforemethod" finished-at="2025-05-27T23:00:21 EDT" duration-ms="2165" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="loginWithValidDetails()[pri:2, instance:SalesForce.Test.LoginTest@6f03482]" started-at="2025-05-27T23:00:21 EDT" name="loginWithValidDetails" finished-at="2025-05-27T23:00:24 EDT" duration-ms="3139" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithValidDetails -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.LoginTest@6f03482]" started-at="2025-05-27T23:00:24 EDT" name="teardown" finished-at="2025-05-27T23:00:25 EDT" duration-ms="529" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.LoginTest@6f03482]" started-at="2025-05-27T23:00:25 EDT" name="beforemethod" finished-at="2025-05-27T23:00:27 EDT" duration-ms="2140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="rememberMeLogin()[pri:3, instance:SalesForce.Test.LoginTest@6f03482]" started-at="2025-05-27T23:00:27 EDT" name="rememberMeLogin" finished-at="2025-05-27T23:00:30 EDT" duration-ms="3360" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- rememberMeLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.LoginTest@6f03482]" started-at="2025-05-27T23:00:30 EDT" name="teardown" finished-at="2025-05-27T23:00:31 EDT" duration-ms="603" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.LoginTest@6f03482]" started-at="2025-05-27T23:00:31 EDT" name="beforemethod" finished-at="2025-05-27T23:00:33 EDT" duration-ms="2001" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="forgotPassword()[pri:4, instance:SalesForce.Test.LoginTest@6f03482]" started-at="2025-05-27T23:00:33 EDT" name="forgotPassword" finished-at="2025-05-27T23:00:33 EDT" duration-ms="834" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgotPassword -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.LoginTest@6f03482]" started-at="2025-05-27T23:00:33 EDT" name="teardown" finished-at="2025-05-27T23:00:34 EDT" duration-ms="378" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.LoginTest@6f03482]" started-at="2025-05-27T23:00:34 EDT" name="beforemethod" finished-at="2025-05-27T23:00:36 EDT" duration-ms="2084" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="loginWithInvalidDetails()[pri:5, instance:SalesForce.Test.LoginTest@6f03482]" started-at="2025-05-27T23:00:36 EDT" name="loginWithInvalidDetails" finished-at="2025-05-27T23:00:37 EDT" duration-ms="1041" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithInvalidDetails -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.LoginTest@6f03482]" started-at="2025-05-27T23:00:37 EDT" name="teardown" finished-at="2025-05-27T23:00:38 EDT" duration-ms="558" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- SalesForce.Test.LoginTest -->
-      <class name="SalesForce.Test.LeadsTest">
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.LeadsTest@131ef10]" started-at="2025-05-27T23:01:08 EDT" name="beforemethod" finished-at="2025-05-27T23:01:10 EDT" duration-ms="1967" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="clickOnLeadsHomePage()[pri:0, instance:SalesForce.Test.LeadsTest@131ef10]" started-at="2025-05-27T23:01:10 EDT" name="clickOnLeadsHomePage" finished-at="2025-05-27T23:01:13 EDT" duration-ms="3378" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnLeadsHomePage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.LeadsTest@131ef10]" started-at="2025-05-27T23:01:13 EDT" name="teardown" finished-at="2025-05-27T23:01:14 EDT" duration-ms="439" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.LeadsTest@131ef10]" started-at="2025-05-27T23:01:14 EDT" name="beforemethod" finished-at="2025-05-27T23:01:16 EDT" duration-ms="2010" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="leadsDropDownOptions()[pri:0, instance:SalesForce.Test.LeadsTest@131ef10]" started-at="2025-05-27T23:01:16 EDT" name="leadsDropDownOptions" finished-at="2025-05-27T23:01:19 EDT" duration-ms="3724" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- leadsDropDownOptions -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.LeadsTest@131ef10]" started-at="2025-05-27T23:01:19 EDT" name="teardown" finished-at="2025-05-27T23:01:20 EDT" duration-ms="466" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.LeadsTest@131ef10]" started-at="2025-05-27T23:01:20 EDT" name="beforemethod" finished-at="2025-05-27T23:01:22 EDT" duration-ms="2083" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="leadsGoButton()[pri:0, instance:SalesForce.Test.LeadsTest@131ef10]" started-at="2025-05-27T23:01:22 EDT" name="leadsGoButton" finished-at="2025-05-27T23:01:30 EDT" duration-ms="8347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- leadsGoButton -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.LeadsTest@131ef10]" started-at="2025-05-27T23:01:30 EDT" name="teardown" finished-at="2025-05-27T23:01:31 EDT" duration-ms="553" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.LeadsTest@131ef10]" started-at="2025-05-27T23:01:31 EDT" name="beforemethod" finished-at="2025-05-27T23:01:33 EDT" duration-ms="2017" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="leadsNewButton()[pri:0, instance:SalesForce.Test.LeadsTest@131ef10]" started-at="2025-05-27T23:01:33 EDT" name="leadsNewButton" finished-at="2025-05-27T23:01:38 EDT" duration-ms="5468" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- leadsNewButton -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.LeadsTest@131ef10]" started-at="2025-05-27T23:01:38 EDT" name="teardown" finished-at="2025-05-27T23:01:39 EDT" duration-ms="392" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.LeadsTest@131ef10]" started-at="2025-05-27T23:01:39 EDT" name="beforemethod" finished-at="2025-05-27T23:01:40 EDT" duration-ms="1859" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="leadsSelectedOptionVisible()[pri:0, instance:SalesForce.Test.LeadsTest@131ef10]" started-at="2025-05-27T23:01:40 EDT" name="leadsSelectedOptionVisible" finished-at="2025-05-27T23:01:44 EDT" duration-ms="3979" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- leadsSelectedOptionVisible -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.LeadsTest@131ef10]" started-at="2025-05-27T23:01:44 EDT" name="teardown" finished-at="2025-05-27T23:01:45 EDT" duration-ms="437" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- SalesForce.Test.LeadsTest -->
+      </class> <!-- SalesForce.Test.RandomScenarioTest -->
     </test> <!-- Login -->
   </suite> <!-- Automation -->
 </testng-results>
