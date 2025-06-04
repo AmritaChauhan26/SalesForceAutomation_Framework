@@ -1,6 +1,8 @@
 package SalesForce.Pages;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
@@ -66,6 +68,48 @@ public class RandomScenarioPage extends Basepage {
 	@FindBy (xpath ="//a[@title='Assets Tab']")
 	List <WebElement> assetab;
 	
+	@FindBy (xpath ="//span[@class='pageDescription']/a[1]")
+	WebElement datelink;
+	
+	@FindBy (xpath= "//div[@id='p:f:j_id25:j_id61:28:j_id64']")
+	WebElement timelink;
+	
+	@FindBy (xpath ="//input[@id='evt5']")
+	WebElement subject;
+	
+	@FindBy (xpath ="//img[@title='Subject Combo (New Window)']")
+	WebElement newwindow;
+	
+	@FindBy (xpath ="//li[@class='listItem4']//a[1]")
+	WebElement other;
+	
+	@FindBy (xpath ="//input[@id='EndDateTime_time']")
+	WebElement endtime;
+	
+	@FindBy (id ="timePickerItem_42")
+	WebElement nine;
+	
+	@FindBy (id ="timePickerItem_43")
+	WebElement ninethirty;
+	
+	@FindBy (id ="timePickerItem_44")
+	WebElement ten;
+	
+	@FindBy (id ="timePickerItem_45")
+	WebElement tenthirty;
+	
+	@FindBy (id ="timePickerItem_46")
+	WebElement eleven;
+	
+	@FindBy (id ="timePickerItem_47")
+	WebElement eleventhirty;
+	
+	@FindBy (name="save")
+	WebElement savetime;
+	
+	
+	
+	
 	public String usernameLink() {
 		mywait(userlink,10);
 		userlink.click();
@@ -119,4 +163,56 @@ public class RandomScenarioPage extends Basepage {
 		return !assetab.isEmpty();
 	}
 	
+	
+	public void blockingAnEventinCalender() {
+		WebDriverWait waitforelelement = new WebDriverWait(driver, 10);
+		mywait(datelink,10);
+		datelink.click();
+		timelink.click();
+		String mainwindow = driver.getWindowHandle();
+		newwindow.click();
+		
+		waitforelelement.until(ExpectedConditions.numberOfWindowsToBe(2));
+		Set<String> windows = driver.getWindowHandles();
+		System.out.println("Windows before switch: " + windows);
+		System.out.println(driver.getTitle());
+		for (String window:windows) {
+			if(!mainwindow.equals(window)) {
+				driver.switchTo().window(window);
+				System.out.println("Switched to new window: " + driver.getTitle());
+				// Perform action that closes the window
+				other.click();	
+				
+				//Wait for popup to close
+				waitforelelement.until(ExpectedConditions.numberOfWindowsToBe(1));
+				 driver.switchTo().window(mainwindow);
+				// Switch to the remaining open window
+				/* Set<String> remaining = driver.getWindowHandles();
+		            String remainingWindow = remaining.iterator().next();
+		            driver.switchTo().window(remainingWindow);
+		            
+		            System.out.println("Switched back to: " + driver.getTitle());*/
+				break;
+		}
+		}
+		
+		endtime.click();
+	}
+	
+	public boolean timeDropDownVerification() {
+		return nine.getText().trim().equals("9:00 PM")&&
+		ninethirty.getText().trim().equals("9:30 PM")&&
+		ten.getText().trim().equals("10:00 PM")&&
+		tenthirty.getText().trim().equals("10:30 PM")&&
+		eleven.getText().trim().equals("11:00 PM")&&
+		eleventhirty.getText().trim().equals("11:30 PM");		   
+		
+	}
+	
+	public void timeSelection() {
+		endtime.click();
+		nine.click();
+		savetime.click();
+	}
 }
+	

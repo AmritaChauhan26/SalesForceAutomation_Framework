@@ -68,4 +68,12 @@ public class RandomScenarioTest extends BaseTest {
 		boolean tab =random.validateTabRemoved();
 		Assert.assertFalse(tab, "Tab not removed ");
 	}
+	
+	@Test (priority=4)
+	public void calenderEventBlockValidation() {
+		loginpage.loginWithValidCredentials("chaamrita953@agentforce.com","Amrita@1985");
+		random.blockingAnEventinCalender();
+		Assert.assertTrue(random.timeDropDownVerification(), "Time is not displaying correctly");
+		random.timeSelection();
+	}
 }

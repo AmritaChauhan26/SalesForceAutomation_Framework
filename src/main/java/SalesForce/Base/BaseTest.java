@@ -32,7 +32,7 @@ public class BaseTest {
 	
 	public void closebrowser() {
 		if(driver!=null) {
-			driver.close();
+			driver.quit();
 			driver=null;
 			
 		}

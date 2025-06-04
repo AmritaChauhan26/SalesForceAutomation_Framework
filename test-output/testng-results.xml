@@ -1,45 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-03T17:47:57 EDT" name="Automation" finished-at="2025-06-03T17:48:24 EDT" duration-ms="26985">
+  <suite started-at="2025-06-04T11:33:11 EDT" name="Automation" finished-at="2025-06-04T11:33:49 EDT" duration-ms="38345">
     <groups>
     </groups>
-    <test started-at="2025-06-03T17:47:57 EDT" name="Login" finished-at="2025-06-03T17:48:24 EDT" duration-ms="26985">
+    <test started-at="2025-06-04T11:33:11 EDT" name="Login" finished-at="2025-06-04T11:33:49 EDT" duration-ms="38345">
       <class name="SalesForce.Test.RandomScenarioTest">
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:47:57 EDT" name="beforemethod" finished-at="2025-06-03T17:48:00 EDT" duration-ms="2854" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.RandomScenarioTest@5542c4ed]" started-at="2025-06-04T11:33:11 EDT" name="beforemethod" finished-at="2025-06-04T11:33:14 EDT" duration-ms="3213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="userNameLinkVerification()[pri:1, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:00 EDT" name="userNameLinkVerification" finished-at="2025-06-03T17:48:04 EDT" duration-ms="4388" status="PASS">
+        <test-method signature="userNameLinkVerification()[pri:1, instance:SalesForce.Test.RandomScenarioTest@5542c4ed]" started-at="2025-06-04T11:33:14 EDT" name="userNameLinkVerification" finished-at="2025-06-04T11:33:18 EDT" duration-ms="4010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userNameLinkVerification -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:04 EDT" name="teardown" finished-at="2025-06-03T17:48:05 EDT" duration-ms="490" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.RandomScenarioTest@5542c4ed]" started-at="2025-06-04T11:33:18 EDT" name="teardown" finished-at="2025-06-04T11:33:19 EDT" duration-ms="542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:05 EDT" name="beforemethod" finished-at="2025-06-03T17:48:07 EDT" duration-ms="1998" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.RandomScenarioTest@5542c4ed]" started-at="2025-06-04T11:33:19 EDT" name="beforemethod" finished-at="2025-06-04T11:33:21 EDT" duration-ms="1841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="lastnameEditUpdateVerification()[pri:2, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:07 EDT" name="lastnameEditUpdateVerification" finished-at="2025-06-03T17:48:15 EDT" duration-ms="8331" status="PASS">
+        <test-method signature="lastnameEditUpdateVerification()[pri:2, instance:SalesForce.Test.RandomScenarioTest@5542c4ed]" started-at="2025-06-04T11:33:21 EDT" name="lastnameEditUpdateVerification" finished-at="2025-06-04T11:33:30 EDT" duration-ms="8906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lastnameEditUpdateVerification -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:15 EDT" name="teardown" finished-at="2025-06-03T17:48:15 EDT" duration-ms="444" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.RandomScenarioTest@5542c4ed]" started-at="2025-06-04T11:33:30 EDT" name="teardown" finished-at="2025-06-04T11:33:30 EDT" duration-ms="472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:15 EDT" name="beforemethod" finished-at="2025-06-03T17:48:17 EDT" duration-ms="2088" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.RandomScenarioTest@5542c4ed]" started-at="2025-06-04T11:33:30 EDT" name="beforemethod" finished-at="2025-06-04T11:33:32 EDT" duration-ms="2154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="allAvailableTabsVerification()[pri:3, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:17 EDT" name="allAvailableTabsVerification" finished-at="2025-06-03T17:48:23 EDT" duration-ms="5387" status="PASS">
+        <test-method signature="allAvailableTabsVerification()[pri:3, instance:SalesForce.Test.RandomScenarioTest@5542c4ed]" started-at="2025-06-04T11:33:32 EDT" name="allAvailableTabsVerification" finished-at="2025-06-04T11:33:40 EDT" duration-ms="8169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allAvailableTabsVerification -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.RandomScenarioTest@815b41f]" started-at="2025-06-03T17:48:23 EDT" name="teardown" finished-at="2025-06-03T17:48:24 EDT" duration-ms="956" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.RandomScenarioTest@5542c4ed]" started-at="2025-06-04T11:33:40 EDT" name="teardown" finished-at="2025-06-04T11:33:41 EDT" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:SalesForce.Test.RandomScenarioTest@5542c4ed]" started-at="2025-06-04T11:33:41 EDT" name="beforemethod" finished-at="2025-06-04T11:33:43 EDT" duration-ms="2128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="calenderEventBlockValidation()[pri:4, instance:SalesForce.Test.RandomScenarioTest@5542c4ed]" started-at="2025-06-04T11:33:43 EDT" name="calenderEventBlockValidation" finished-at="2025-06-04T11:33:49 EDT" duration-ms="5695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calenderEventBlockValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SalesForce.Test.RandomScenarioTest@5542c4ed]" started-at="2025-06-04T11:33:49 EDT" name="teardown" finished-at="2025-06-04T11:33:49 EDT" duration-ms="532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

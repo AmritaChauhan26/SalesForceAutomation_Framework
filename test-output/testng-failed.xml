@@ -5,7 +5,7 @@
     <classes>
       <class name="SalesForce.Test.RandomScenarioTest">
         <methods>
-          <include name="allAvailableTabsVerification"/>
+          <include name="calenderEventBlockValidation"/>
           <include name="beforemethod"/>
           <include name="teardown"/>
         </methods>
